@@ -1,4 +1,4 @@
-# TODO Radar — encontre TODOs e FIXMEs esquecidos no seu código (Python)
+# TODO Radar: encontre TODOs e FIXMEs esquecidos no seu código (Python)
 
 Todo projeto acumula `TODO: arrumar depois` que ninguém arruma. O **todo-radar** varre o código, encontra as marcações dentro dos comentários (TODO, FIXME, HACK, XXX, BUG e OPTIMIZE) e usa o `git blame` para mostrar quem escreveu cada uma e há quanto tempo, das mais antigas para as mais novas. Dá para gerar uma tabela em Markdown para uma issue, um JSON para scripts ou fazer o CI falhar quando aparecer uma marcação velha demais.
 
@@ -136,4 +136,4 @@ Issues e pull requests são bem-vindos, principalmente com linguagens que ainda 
 
 ## Licença
 
-MIT — veja [LICENSE](LICENSE).
+MIT. Veja [LICENSE](LICENSE).
