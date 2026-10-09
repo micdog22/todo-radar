@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todo-radar"
+version = "1.0.0"
+description = "Encontra TODOs, FIXMEs e outras marcações esquecidas no código, com autor e idade pelo git blame, em tabela, Markdown ou JSON."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+keywords = ["todo", "fixme", "divida-tecnica", "git-blame", "code-review", "ci", "cli"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Natural Language :: Portuguese (Brazilian)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+
+[project.urls]
+Homepage = "https://github.com/micdog22/todo-radar"
+Issues = "https://github.com/micdog22/todo-radar/issues"
+
+[project.scripts]
+todo-radar = "todo_radar.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
